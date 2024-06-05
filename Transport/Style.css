@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+float: left;
+padding-left: 20px;
+padding-top: 20px;
+width:150px;
+height:150px; 
+}
+
+header{
+    width:100%;
+    height: 200px;
+    background-color: rgb(1, 1, 87);
+    border-radius: 10px;
+    
+}
+.logo h2{
+    font-size: 40px;
+    font-family:'Trebuchet MS';
+    color: rgb(226, 219, 201);
+    text-transform: uppercase;
+    padding-left: 200px;
+    padding-top: 20px; 
+}
+
+ .logo h4{
+    font-size: 15px;
+    font-family:'Lucida Sans';
+    font-style: italic;
+    color: rgb(188, 180, 158);
+    padding-left: 200px;
+ }
+bc
+nav a{
+    display: inline-block; 
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-left: 50px;
+    list-style: none;
+}
+li a{
+    display: block;
+    color: rgb(233, 175, 175);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+li a:hover{
+    background-color: rgb(236, 177, 169);
+    color: darkblue
+}
+#home h1{
+    font-family: Arial;
+    font-size: 50px;
+    color: rgb(145, 14, 14);
+    text-transform:uppercase ;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 50px;
+    font-weight: 700;
+
+    
+}
+
+#home #button{
+    font-size: 50px;
+    text-decoration: none;
+    text-shadow: black 2px solid;
+    padding-left: 200px;
+    text-align: center;
+    color: rgb(38, 13, 89);
+    border: rgb(37, 8, 71) 2px solid;
+    margin-top: 100px;
+    margin-left: 600px;
+    padding: 10px 20px;
+    border-radius: 10px;
+   
+ 
+}
+
+#home #button:hover{
+    background-color: rgb(17, 17, 88);
+    color: white;
+}
+#about{
+    height: 750px;
+}
+#aboutimg{
+    font-weight: 500;
+}
+#about #school{
+    margin-left:150px;
+    margin-top: 50px;
+    width: 500px;
+    height: 100px;
+   text-transform:uppercase;
+   color: darkblue;
+   
+  
+}  
+#school,#bus{
+    display: inline-block;
+    }
+    #about #bus{
+    margin-left: 700px;
+    margin-top: 50px;
+    width: 200px;
+    height: 100px;
+   text-transform:uppercase;
+   
+}
+#school #aboutimg{
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+    border-radius: 20px;
+    
+}
+   #aboutimg{
+    padding: 0;
+  margin-left: 100px;
+  width: 300px;
+ height: 300px;
+  margin-top: 0;
+   }
+  
+
+h3.heading {
+    font-size: 50px;
+    font-family:'Gill Sans';
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(201, 133, 111);
+
+}
+ h3.heading:hover{
+    color: rgb(251, 251, 251);
+}
+#services{
+    height: 750px;
+}
+
+footer{
+    background-color: rgb(11, 11, 11);
+    height: 550px;
+    border-radius: 10px;
+    
+}
+
+
+/*login page styling starts here*/
+
+.login{
+    display: inline-block ;
+    border: 30px;
+    line-height: 3;
+    margin-left: 300px;
+}
+.login form{
+    height: 600px;
+    width: 400px;
+    line-height: 3;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+.login h2{
+    text-align: center;
+    padding: 0  ;
+
+} 
+
+form{
+    
+    height: 1200px;
+    width: 500px;
+    font-family:'Trebuchet MS';
+    background-color: rgb(212, 229, 255);
+    padding-top: 0;
+    padding : 60px ;
+    margin-left: 200px;
+    justify-content: center;
+   border: rgb(7, 7, 49) 2px solid;
+   border-radius: 20px;
+}
+
+
+
+.signin{
+    border: darkblue 1px solid;
+    width: 300px;
+    text-decoration: none;
+    padding: 5px ;
+    text-align: center;
+    font-size: 20px;
+    height: 60px;
+
+}
+
+
+.signin:hover{
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+   
+}
+
+input{
+    background-color: white;
+    padding: 10px ;
+    border-radius: 5px;
+    margin: 2px;
+    width:400px;
+    
+ 
+}
+
+/*sign up page styling starts here*/
+.signup{
+        padding: 10px ;
+        line-height: 2;
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+    
+    
+   
+    label.Details{
+        display: block;
+    }
+    label.Details.gender{
+        width: 60px;
+    }
+    select{
+        width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+
+    }
+    input.logininput{
+     padding: 10px ;
+    border-radius: 5px;
+    margin: 2px;
+    width:300px;
+    height: 50px;
+    
+       
+    }
+    input.space{
+        width: 30px;
+    }
+   input.date{
+    width: 120px;
+   }
+    .signup h2{
+        text-align: center;
+    }
+    
+   #getintouch{
+    color:white;
+   }
+  
+   .sidemenu{
+    display: flex;
+    height: 600px;
+    width: 300px;
+   
+   }

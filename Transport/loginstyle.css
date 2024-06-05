@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 207, 207);
+}
+
+
+header{
+width:100%;
+height: 10%;
+text-align: center;
+background-color: rgb(0, 0, 0);
+
+}
+
+.welcome{
+    font-size: 30px;
+    color: #f9d5d5;
+}
+
+.sidesection{
+    color: #e8bbbb;
+}
+.function{
+    color:#e8bbbb;
+    height: 800px;
+    width:500px;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 3;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 0;
+  
+   
+}
+
+#dashboard{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+   }
+   .card{
+    width: 200px;
+    padding: 20px;
+    padding-left: 00px;
+    margin: 10px;
+    background-color: rgb(170, 93, 143);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px white;
+   }
+   .dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   }
+   
+li a{
+    text-decoration: none;
+    color: #dea7a7;
+    width: 30px;
+    height: 10px;
+    padding: 20px;
+    line-height: 5;
+   
+}
+li a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+.sidemenu{
+    width:300px;
+    height: 650px;
+    background-color: rgb(1, 1, 87);
+    border-radius: 10px;
+    border:1px solid rgb(249, 155, 224) ;
+    margin-top: 0;
+    margin-right: 0px;
+    display:inline-block ;
+   
+}
+
+.view{
+    width: 600px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 250px;
+    border-radius: 10px;
+   
+}
+.profile{
+display: inline-block;
+
+
+}
+.sidemenu, .profile{
+ display: inline-block;
+}
+
+.signin{
+    border:  rgb(1, 1, 87) 1px solid;
+    width: 100px;
+    font-family:Verdana;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+  
+
+}
+.signin:hover{
+    background-color:  rgb(1, 1, 87);
+    color:  #dea7a7;
+   
+   
+}
+.signup{
+    padding: 10px ;
+    line-height: 1;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS';
+    color: rgb(5, 5, 55);
+}
+
+
+.update{
+    display: inline-block;
+}
+.bus{
+display:inline-block ;
+margin-left: 250px;
+}
+.viewbus{
+    display:inline-block;
+   
+}
+.bus, .viewbus{
+    display: inline-block;
+   }
+  
+   h2{
+    color: #dbadad;
+    font-size: 40px;
+   }
+   .tablebus{
+
+    width: 200px;
+    font-family: Verdana;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 200px;
+   }
+   h3{
+    font-size: 30px;
+    font-family: Verdana;
+   }
+   .pass{
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 450px;
+    margin-top: 100px;
+    background-color:rgb(217, 146, 170) ;
+    
+   }
+   .passtitle{
+   padding: 20PX;
+   font-family: Lucida Sans;
+   color: rgb(33, 33, 114);
+   }
+   .generate{
+    width:300px;
+    border:  rgb(1, 1, 87) 1px solid;
+    font-family:Verdana;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+  
+   }
+   h4{
+    font-size: 20px;
+    text-align: center;
+   }
+   .signin #insert{
+   margin-left: 500px;
+   }
+   .bustable{
+    size: 200px;
+   }
