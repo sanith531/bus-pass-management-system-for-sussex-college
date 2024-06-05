@@ -1,0 +1,47 @@
+# Bus Pass Management System
+
+This project is a Bus Pass Management System built using PHP and Visual Studio 2022. It is designed to streamline the process of issuing, renewing, and managing bus passes for students at Sussex College.
+
+## Features
+
+- User authentication and authorization
+- Issue new bus passes
+- Renew existing bus passes
+- Manage user information
+- Admin panel for managing all operations
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sanith531/bus-pass-management-system-for-sussex-college.git
+   cd bus-pass-management-system
+
+Set up your environment
+
+Ensure you have PHP installed on your machine.
+Set up a local server (e.g., XAMPP, WAMP).
+Database Setup
+
+Create a new database.
+Import the database.sql file located in the db directory to set up the required tables.
+Configure the application
+
+Open the config.php file in the root directory and update the database configuration settings.
+Run the application
+
+Start your local server and navigate to https://github.com/sanith531/bus-pass-management-system-for-sussex-college.git.
+Usage
+Admin Login
+
+Navigate to the admin login page and log in using admin credentials.
+Manage bus passes, user information, and more from the admin panel.
+User Registration/Login
+
+New users can register for an account.
+Existing users can log in to view and renew their bus passes.
+Technologies Used
+PHP
+MySQL
+HTML/CSS
+JavaScript
